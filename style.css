@@ -1,0 +1,123 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#nav{
+    /* background-color: #00ffff; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-size: 20px;
+}
+#nav ul {
+    text-decoration: none;
+    margin-right:50px ;
+    
+}
+#nav h2{
+    margin-left: 30px;
+}
+a{
+    text-decoration: none;
+    margin-right: 70px;
+    letter-spacing: 1.5px;
+}
+#nav ul button{
+    background-color: rgb(140, 140, 228);
+    color: white;
+    padding: 15px;
+    border-radius: 50px;
+    border-top-left-radius: 0;
+    transition: 0.3 all ease;
+}
+
+#nav ul button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+
+#contact{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgb(6, 20, 20); */
+    display: flex;
+}
+#left{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(207, 166, 166); */
+    padding: 50px;
+}
+#left .first{
+    font-weight: 400;
+    color: rgb(123, 123, 180);
+    font-size: 50px;
+}
+#left .second{
+    font-weight: 400;
+    color: rgb(16, 16, 192);
+    font-size: 50px;
+}
+#left .third{
+    font-weight: 400;
+    color: rgb(69, 69, 122);
+    font-size: 50px;
+}
+#left .Search{
+    color: white;
+    background-color: rgb(131, 131, 209);
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+#left .Search:hover{
+    background-color: black;
+
+}
+#left .input{
+    color:black;
+    /* background-color: rgb(131, 131, 209); */
+    padding: 15px;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-size: 1rem;
+
+}
+#left h5{
+    font-size: 1rem ;
+    color: rgba(18, 18, 102, 0.418);
+}
+#right{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(207, 166, 166); */
+}
+#right .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+#right img{
+    width: 300px;
+    height:350px;
+    object-fit: cover;
+    margin: 20px;
+    border-radius: 10px;
+}
+#right .img .pic1{
+    margin-top: 100px;
+}
+#right .img .pic2{
+    margin-bottom: 100px;
+}
+#contact #right #third{
+    background-color: hsl(266, 46%, 82%);
+    position: absolute;
+    top:65%;
+    left: 50%;
+    transform: translate(100%,-50%);
+    border-radius: 10px;
+}
+
